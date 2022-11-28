@@ -14,7 +14,7 @@ hdfs dfs -get /output/* Outputs
 
 python3 format.py
 
-python3 bd_upload.py
+python3 buscador.py
 
 
 
