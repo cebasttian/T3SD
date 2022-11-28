@@ -9,7 +9,8 @@ current_count = 0
 word = None
 
 # input comes from STDIN
-for line in sys.stdin:
+aux = sorted(sys.stdin)
+for line in aux:
     # remove leading and trailing whitespace
     line = line.strip()
 
